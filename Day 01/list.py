@@ -20,3 +20,12 @@ min_sugar = min(sugar_levels)
 print(f"Sorted sugar levels: {sugar_levels}")
 print(f"Maximum sugar level: {max_sugar}")
 print(f"Minimum sugar level: {min_sugar}")
+
+#extends
+vegetables = ["carrot", "broccoli"]
+fruits.extend(vegetables)
+print(f"Fruits after extending with vegetables: {fruits}")
+
+#operator overloading
+combined_list = fruits + vegetables
+print(f"Combined list of fruits and vegetables: {combined_list}")
