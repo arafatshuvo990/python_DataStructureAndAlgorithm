@@ -1,0 +1,8 @@
+items = set()
+print(f"Initial id of items: {id(items)}")
+print(f"Initial items: {items}")
+items.add("apple")
+items.add("banana")
+items.add("orange")
+print(f"Items after adding 'apple': {items}")
+print(f"Id of items after adding 'apple': {id(items)}")
