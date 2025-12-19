@@ -38,3 +38,10 @@ fruits_available += 5
 print(f"Updated fruits available: {fruits_available}")
 fruits_invited = fruits_available <10
 print(f"Are fruits enough for the party after update? {fruits_invited}")
+
+# serve
+added_sugar = True
+added_milk = False
+
+can_Serve = added_sugar and added_milk
+print(f"we can serve the Tea - {can_Serve}")
