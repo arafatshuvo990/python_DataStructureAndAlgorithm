@@ -12,3 +12,12 @@ print("City:", my_dict["city"])
 
 my_dict["profession"] = "Engineer"
 print("Updated Dictionary:", my_dict)
+
+tel = {'jack': 4505, 'shape': 6782}
+tel['steve']= 8902
+print(tel)
+print(tel.get('steve'))
+print(tel.items())
+print(tel.keys())
+print(tel.values())
+print(list(tel))
