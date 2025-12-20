@@ -29,3 +29,13 @@ print(f"Fruits after extending with vegetables: {fruits}")
 #operator overloading
 combined_list = fruits + vegetables
 print(f"Combined list of fruits and vegetables: {combined_list}")
+
+#byte array
+raw_data = bytearray(b"Messi")
+print(f"Original bytearray: {raw_data}")
+
+b = bytes([65, 66, 67])
+print(b)        # b'ABC'
+print(type(b))  # <class 'bytes'>
+
+

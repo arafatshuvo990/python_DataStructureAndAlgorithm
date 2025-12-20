@@ -1,0 +1,9 @@
+device_status = input(("What is the current status: ")).lower()
+device_temp = input(("what is the current temp: "))
+
+if device_status == "active" and device_temp >= 35:
+    print(f"WARN: hign temparature alert")
+elif device_status != "active":
+    print(f"device is offline")
+else:
+    print(f"Device temp is normal")
